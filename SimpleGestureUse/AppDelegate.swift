@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SimpleGestureUse
 //
-//  Created by Trixie Lulamoon on 2022/12/23.
+//  Created on 2022/12/23.
 //
 
 import UIKit

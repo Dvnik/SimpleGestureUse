@@ -4,7 +4,7 @@
 //
 //  Created on 2022/12/20.
 //
-//
+// 參考來源：https://itisjoe.gitbooks.io/swiftgo/content/uikit/uigesturerecognizer.html
 // 大致上將手勢功能都實作出來，可能有些手勢用不到所以delegate就不強制插入function
 //
 //
@@ -34,7 +34,7 @@ extension SimpleGestureMakerDelegate {
 class SimpleGestureMaker: NSObject {
     //MARK: Values
     var delegate: SimpleGestureMakerDelegate?
-    var settingVC: UIViewController?
+    var settingVC: UIViewController?//如果不是nil的話會自動註冊相關的手勢到UIViewController上
     //MARK: functions
     /**
      Tap 輕點
